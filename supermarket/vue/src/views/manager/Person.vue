@@ -1,11 +1,5 @@
 <template>
   <div>
-    <div style="margin-bottom: 10px;">
-      <el-input prefix-icon="Search" style="width: 300px; margin-right: 10px" v-model="data.name" placeholder="请输入名称查询"></el-input>
-      <el-button type="primary" plain round @click="load">查询</el-button>
-      <el-button type="info" plain round style="margin: 0 10px" @click="reset">重置</el-button>
-    </div>
-
     <div style="width: 50%;margin: 50px auto">
       <el-form :model="data.user" label-width="100px" label-position="right" style="padding-right: 40px">
         <el-form-item label="头像" prop="img">

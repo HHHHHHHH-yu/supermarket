@@ -4,10 +4,10 @@
       <el-form :model="data.user" ref="formRef" :rules="rules" label-width="100px" label-position="right" style="padding-right: 40px">
 
         <el-form-item label="新密码" prop="newPassword">
-          <el-input show-password v-model="data.user.newPassword" autocomplete="off"/>
+          <el-input show-password v-model="data.user.newPassword" placeholder="建议8-16位（包含2种以上不同类型字符）" autocomplete="off"/>
         </el-form-item>
         <el-form-item label="确认密码" prop="confirmPassword">
-          <el-input show-password v-model="data.user.confirmPassword" autocomplete="off"/>
+          <el-input show-password v-model="data.user.confirmPassword" placeholder="请再次输入密码" autocomplete="off"/>
         </el-form-item>
 
         <div style="text-align: center; margin-top: 40px">
