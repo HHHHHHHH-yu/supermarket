@@ -42,5 +42,5 @@
 
 ### 后端启动
 终端: cd supermarket/vue
-npm install
-npm run dev
+#### npm install
+#### npm run dev
