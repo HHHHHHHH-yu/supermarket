@@ -41,6 +41,7 @@
 启动SpringbootApplication
 
 ### 后端启动
-终端: cd supermarket/vue
+终端:
+#### cd supermarket/vue
 #### npm install
 #### npm run dev
